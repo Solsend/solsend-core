@@ -1,0 +1,17 @@
+[features]
+seeds = true
+skip-lint = false
+[programs.localnet]
+solsend_core = "88Vv88x5T9HvAxu8b1ya9KazRzcNkqkdcAU5VAH9fjkG"
+[programs.devnet]
+solsend_core = "88Vv88x5T9HvAxu8b1ya9KazRzcNkqkdcAU5VAH9fjkG"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet" # This should be `devnet` when deploying to devnet
+wallet = "/Users/antarikshverma/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
