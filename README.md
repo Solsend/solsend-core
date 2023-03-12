@@ -1,5 +1,22 @@
-# solsend_core
+# Solsend Core
 
-This project was created by Seahorse 0.2.7.
+### Deploy
 
-To get started, just add your code to **programs_py/solsend_core.py** and run `seahorse build`.
+To deploy the smart contracts in this repository:
+
+```
+$ solana config set --url devnet
+$ solana airdrop 3
+$ seahorse build
+$ solana address -k target/deploy/solsend_core-keypair.json     # Get the new program id
+$ seahorse build
+$ anchor deploy
+```
+
+### Build
+
+To build the smart contracts in this repository:
+
+```
+$ seahorse build
+```
