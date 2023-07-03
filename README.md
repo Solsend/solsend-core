@@ -4,6 +4,8 @@ This repository contains the core smart contracts for Solsend. It is **not** pro
 
 The program ID on devnet is 4FF8j7wY3uxZPbKKRA6RYzmpfkPnbvxGvWxNaBLeino5.
 
+The program ID on mainnet is 5tDG8LBBBohRETNRNBrQixr1bM9WGi1eUgcA75VX8nMy.
+
 ### Deploy
 
 To deploy the smart contracts in this repository:

@@ -5,12 +5,14 @@ skip-lint = false
 solsend_core = "4FF8j7wY3uxZPbKKRA6RYzmpfkPnbvxGvWxNaBLeino5"
 [programs.devnet]
 solsend_core = "4FF8j7wY3uxZPbKKRA6RYzmpfkPnbvxGvWxNaBLeino5"
+[programs.mainnet]
+solsend_core = "5tDG8LBBBohRETNRNBrQixr1bM9WGi1eUgcA75VX8nMy"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "mainnet" # This should be `devnet` when deploying to devnet
+cluster = "devnet" # This should be `devnet` when deploying to devnet
 wallet = "/Users/antarikshverma/.config/solana/id.json"
 
 [scripts]
