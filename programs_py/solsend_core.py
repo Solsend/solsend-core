@@ -3,7 +3,7 @@
 
 from seahorse.prelude import *
 
-declare_id('88Vv88x5T9HvAxu8b1ya9KazRzcNkqkdcAU5VAH9fjkG')
+declare_id('4FF8j7wY3uxZPbKKRA6RYzmpfkPnbvxGvWxNaBLeino5')
 
 # A channel is analogous to a stream. A client may subscribe to the channel and receive 
 # notifications from the said channel. 
